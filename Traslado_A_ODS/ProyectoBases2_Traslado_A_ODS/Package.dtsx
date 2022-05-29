@@ -11,8 +11,8 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{4A7ACD8B-4C81-4287-B194-A799AC0EE8F1}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{DDEB492F-D4F4-4497-B03E-34A8747C1BB6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB8RZNDNVitBBeLteO8OH3LByZSkYOTQU8RrK+n+NZrQAAAAAAOgAAAAAIAACAAAABn1b2Vh8Sgv4b+u0HGmU/VCLLL6JjPPAiwz1jO25Xl6yAAAAAn/IzgcUC9J6etYBS0w8SNHr8qVqdTc7BG72oADyqLgEAAAADLaHuuLDg1DjAj3ryOfuKuBysRFjx4k6biisz2R1YVumAJFTTwhMNo9Ws91n1jM0hlxIS3pg20HFSJ++kTW3h0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABdUxXEdPkAqt47zWtFaovZOaLaEWZMhbivPBYrOSi+3QAAAAAOgAAAAAIAACAAAAAZFkMBZzcwOzqQ7GddKIqRH+b0bMpEVFd3R9B3oRuqIyAAAABHJwEe5EvQ4F1ElaDuzEafKikWjDLQNb4YvL1XgdJbbUAAAABNGz8vINCGH8IVy71sie69n5h3W8G6RWh/RAHvq+DwR00xHPcEuWau2fjlD9EvUvRFE3VagzfcbgE6+p+oNDue</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -52,7 +52,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADBGe3KzgUFDeZ+9tqRJ/sOGYYEaW9aOjtSw22acn2eUgAAAAAOgAAAAAIAACAAAADSooS+N1O/dXnPKKyXQbDB00K78aJj/omIMzt/yvY4dRAAAAAeBktQjBifdIeFVjPBzec5QAAAAChF5PZJMb5iLl58SMUcUdhGA+yabFq3aysBohKMQhaiolfW5dQS1UcRZFF6TXyRBrhjqRl9N+k4LVTN7ySAA30</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD3utSdXIYwm50yzyhxJ2VLgV+IVmJaiwJKo55HOgp1cgAAAAAOgAAAAAIAACAAAADPa0IFb3sX9bvmHAu30JVykQe6RRvJZ86cFE9Q6E/CERAAAACH1qrjqcIXuq+I7bYqVqUtQAAAAF0+xDFaeAAv94ts2ia7tzYyp9mR70ff4Hdl6qR7YMp9vpbiwLOE/fdFUaqwboz2Gv5vnwyx59qB6R2aeQVtvWc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -69,7 +69,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADkmrY7VYersf7D5WJ3IQJZ13sZpD7B4db22ipXiBc+WQAAAAAOgAAAAAIAACAAAADXEzlpYdXvOsHQQCSyuJfi4BZSDgQTTfr0d8N/RIVD/RAAAAASPKRJ/CpmmX7bGNHowjD5QAAAAEUfhdDIW4364rimiqTRPAjP9WIRfbMp40rxEnW9sjto+TOR/Mag+/cVf+j0UiT3O+qrAH+R20CfG8j5aULanok</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADe4J7t2psNuD/wrx6/VpPtdisnv6AbQ+7wvRi7Jvap5gAAAAAOgAAAAAIAACAAAACMamH3ZHaXTGLj7o+sCHr1TFQg53DkUbHrs4Pe0+uCkBAAAABj+EcLfIjtmUN0vCSet41gQAAAAO4ah9bNaa7iLGH2NwRtJVBtVxGQXUhDFAE+SayGnKdyaGrggGEC6Wkmsl4/r67rpzNFa6nTCHMmn9NOYpxGbf8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -84,7 +84,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABRzQQhbz/39tel97JX013PowDXGbdtN3e3ciivdoH/JwAAAAAOgAAAAAIAACAAAACw8lUnlLEqp5jVBy0JcL0Ewh/qGsYb/OVNU7fRf3wuERAAAAA4wZdlL8MmS5YHJclySaNkQAAAAItsYlHULgu9RtJ3ETRQFaQ1YeWil/cTypH7EhLQbWP0GyWioW+VSPlquHCKX+53d7B2OY6BNKeD0c2MoV3cg+0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeBShnpAYXUqzBR4rMOx0YwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABaEZEAN2uc2cAy4Avw6AhSXt/eAgRK73Weg7pF/EJNvAAAAAAOgAAAAAIAACAAAADjaGG0YTd3+poIC3+UW5YzbWm4sIEqHoFxkFow/noCaRAAAAA9ktX6qVxDAHNePWtEnzDCQAAAAIz2mR4naIY3ltLCJJfHEQj/5okpEjPRnM2ts9AFE4DZrtlND4DALDKG90/YvoPONkbLINEKbyZwGkTdvqvpPWY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1794,7 +1794,7 @@
                       refId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET].Columns[Carnet]"
                       cachedDataType="i4"
                       cachedName="Carnet"
-                      externalMetadataColumnId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET].ExternalColumns[Carnet]"
+                      externalMetadataColumnId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET].ExternalColumns[CARNET]"
                       lineageId="Package\Traslado de Datos a ODS\MYSQL-Cargos.Outputs[Salida de origen de ADO NET].Columns[Carnet]" />
                     <inputColumn
                       refId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET].Columns[Cargo]"
@@ -1827,11 +1827,10 @@
                       precision="38"
                       scale="255" />
                     <externalMetadataColumn
-                      refId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET].ExternalColumns[Carnet]"
-                      dataType="numeric"
-                      name="Carnet"
-                      precision="38"
-                      scale="255" />
+                      refId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET].ExternalColumns[CARNET]"
+                      dataType="wstr"
+                      length="50"
+                      name="CARNET" />
                     <externalMetadataColumn
                       refId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET].ExternalColumns[CARGO]"
                       dataType="numeric"
@@ -5340,75 +5339,75 @@
               name="Data Conversion Output"
               startId="Package\Traslado de Datos a ODS\Data Conversion 1.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET12]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Pagos_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\MYSQL-Pagos.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET11]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\MYSQL-Cargos.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET10]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Estudiantes_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\SQL SERVER-Estudiantes.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET9]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Horas_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\Oracle-Horas.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET8]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Dias_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\Oracle-Dias.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET7]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Cursos_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\Oracle-Cursos.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET5]"
-              endId="Package\Traslado de Datos a ODS\Union All 1.Inputs[Union All Input 1]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\Oracle-Horarios.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET4]"
-              endId="Package\Traslado de Datos a ODS\Data Conversion.Inputs[Data Conversion Input]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\SQL SERVER-Horarios.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET3]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Notas_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\SQL SERVER-Notas.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET2]"
-              endId="Package\Traslado de Datos a ODS\Union All.Inputs[Union All Input 1]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\SQL SERVER-Asignaciones.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET1]"
-              endId="Package\Traslado de Datos a ODS\Data Conversion 1.Inputs[Data Conversion Input]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\MYSQL-Asignaciones.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Anios_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\Oracle-Anios.Outputs[Salida de origen de ADO NET]" />
-            <path
-              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET6]"
-              endId="Package\Traslado de Datos a ODS\Oracle-Catedraticos_DS.Inputs[Entrada de destino de ADO NET]"
-              name="Salida de origen de ADO NET"
-              startId="Package\Traslado de Datos a ODS\Oracle-Catedraticos.Outputs[Salida de origen de ADO NET]" />
-            <path
               refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET13]"
               endId="Package\Traslado de Datos a ODS\Oracle-Semestre_DS.Inputs[Entrada de destino de ADO NET]"
               name="Salida de origen de ADO NET"
               startId="Package\Traslado de Datos a ODS\Oracle-Semestre.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET12]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Catedraticos_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\Oracle-Catedraticos.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET11]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Anios_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\Oracle-Anios.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET10]"
+              endId="Package\Traslado de Datos a ODS\Data Conversion 1.Inputs[Data Conversion Input]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\MYSQL-Asignaciones.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET9]"
+              endId="Package\Traslado de Datos a ODS\Union All.Inputs[Union All Input 1]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\SQL SERVER-Asignaciones.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET8]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Notas_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\SQL SERVER-Notas.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET7]"
+              endId="Package\Traslado de Datos a ODS\Data Conversion.Inputs[Data Conversion Input]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\SQL SERVER-Horarios.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET5]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Cursos_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\Oracle-Cursos.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET4]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Dias_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\Oracle-Dias.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET3]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Horas_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\Oracle-Horas.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET2]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Estudiantes_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\SQL SERVER-Estudiantes.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET1]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Cargos_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\MYSQL-Cargos.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET]"
+              endId="Package\Traslado de Datos a ODS\Oracle-Pagos_DS.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\MYSQL-Pagos.Outputs[Salida de origen de ADO NET]" />
+            <path
+              refId="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET6]"
+              endId="Package\Traslado de Datos a ODS\Union All 1.Inputs[Union All Input 1]"
+              name="Salida de origen de ADO NET"
+              startId="Package\Traslado de Datos a ODS\Oracle-Horarios.Outputs[Salida de origen de ADO NET]" />
             <path
               refId="Package\Traslado de Datos a ODS.Paths[Union All Output 1]"
               endId="Package\Traslado de Datos a ODS\Aggregate.Inputs[Aggregate Input 1]"
@@ -5485,6 +5484,18 @@
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="197,42"
+          Id="Package\Traslado de Datos a ODS\SQL SERVER-Estudiantes"
+          TopLeft="78,597" />
+        <NodeLayout
+          Size="144,42"
+          Id="Package\Traslado de Datos a ODS\MYSQL-Pagos"
+          TopLeft="90,989" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Traslado de Datos a ODS\Data Conversion"
+          TopLeft="308,379" />
+        <NodeLayout
           Size="163,42"
           Id="Package\Traslado de Datos a ODS\Oracle-Cursos_DS"
           TopLeft="810,160" />
@@ -5513,9 +5524,17 @@
           Id="Package\Traslado de Datos a ODS\MYSQL-Cargos"
           TopLeft="80,904" />
         <NodeLayout
+          Size="169,42"
+          Id="Package\Traslado de Datos a ODS\SQL SERVER-Notas"
+          TopLeft="75,677" />
+        <NodeLayout
           Size="192,42"
           Id="Package\Traslado de Datos a ODS\Oracle-Asignaciones_DS"
           TopLeft="828,753" />
+        <NodeLayout
+          Size="136,42"
+          Id="Package\Traslado de Datos a ODS\Aggregate 1"
+          TopLeft="674,845" />
         <NodeLayout
           Size="159,42"
           Id="Package\Traslado de Datos a ODS\Oracle-Notas_DS"
@@ -5528,10 +5547,6 @@
           Size="157,42"
           Id="Package\Traslado de Datos a ODS\Oracle-Anios_DS"
           TopLeft="808,10" />
-        <NodeLayout
-          Size="197,42"
-          Id="Package\Traslado de Datos a ODS\SQL SERVER-Estudiantes"
-          TopLeft="78,597" />
         <NodeLayout
           Size="173,42"
           Id="Package\Traslado de Datos a ODS\Oracle_Horarios_DS"
@@ -5549,9 +5564,9 @@
           Id="Package\Traslado de Datos a ODS\Oracle-Horas_DS"
           TopLeft="819,456" />
         <NodeLayout
-          Size="182,42"
-          Id="Package\Traslado de Datos a ODS\SQL SERVER-Horarios"
-          TopLeft="65,375" />
+          Size="130,42"
+          Id="Package\Traslado de Datos a ODS\Union All 1"
+          TopLeft="531,335" />
         <NodeLayout
           Size="152,42"
           Id="Package\Traslado de Datos a ODS\Oracle-Dias_DS"
@@ -5565,9 +5580,17 @@
           Id="Package\Traslado de Datos a ODS\Oracle-Anios"
           TopLeft="57,14" />
         <NodeLayout
-          Size="130,42"
-          Id="Package\Traslado de Datos a ODS\Union All 1"
-          TopLeft="531,335" />
+          Size="176,42"
+          Id="Package\Traslado de Datos a ODS\Oracle-Semestre_DS"
+          TopLeft="804,523" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Traslado de Datos a ODS\Union All"
+          TopLeft="543,765" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Traslado de Datos a ODS\SQL SERVER-Horarios"
+          TopLeft="65,375" />
         <NodeLayout
           Size="171,42"
           Id="Package\Traslado de Datos a ODS\Oracle-Catedraticos"
@@ -5581,50 +5604,16 @@
           Id="Package\Traslado de Datos a ODS\Oracle-Dias"
           TopLeft="69,242" />
         <NodeLayout
+          Size="127,42"
+          Id="Package\Traslado de Datos a ODS\Aggregate"
+          TopLeft="660,405" />
+        <NodeLayout
           Size="157,42"
           Id="Package\Traslado de Datos a ODS\Oracle-Semestre"
           TopLeft="88,533" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Traslado de Datos a ODS\Union All"
-          TopLeft="543,765" />
-        <NodeLayout
-          Size="169,42"
-          Id="Package\Traslado de Datos a ODS\SQL SERVER-Notas"
-          TopLeft="75,677" />
-        <NodeLayout
-          Size="144,42"
-          Id="Package\Traslado de Datos a ODS\MYSQL-Pagos"
-          TopLeft="90,989" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Traslado de Datos a ODS\Data Conversion"
-          TopLeft="308,379" />
         <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET8]"
-          TopLeft="202,262">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="611,0"
-              Start="0,0"
-              End="603.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="603.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET7]"
-          TopLeft="206,183">
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET]"
+          TopLeft="234,1013">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5636,184 +5625,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="596.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET6]"
-          TopLeft="230,117.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="573,0"
-              Start="0,0"
-              End="565.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="565.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET5]"
-          TopLeft="218,325">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="313,25.3333333333333"
-              Start="0,0"
-              End="305.5,25.3333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="176.908256880734,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="176.908256880734,0"
-                    Point2="180.908256880734,0"
-                    Point3="180.908256880734,4" />
-                  <mssgle:LineSegment
-                    End="180.908256880734,21.3333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="180.908256880734,21.3333333333333"
-                    Point2="180.908256880734,25.3333333333333"
-                    Point3="184.908256880734,25.3333333333333" />
-                  <mssgle:LineSegment
-                    End="305.5,25.3333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET4]"
-          TopLeft="247,398">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="61,0"
-              Start="0,0"
-              End="53.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="53.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET3]"
-          TopLeft="244,698">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="588,0"
-              Start="0,0"
-              End="580.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="580.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET2]"
-          TopLeft="276,766">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="267,20"
-              Start="0,0"
-              End="259.5,20">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="129.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="129.5,0"
-                    Point2="133.5,0"
-                    Point3="133.5,4" />
-                  <mssgle:LineSegment
-                    End="133.5,16" />
-                  <mssgle:CubicBezierSegment
-                    Point1="133.5,16"
-                    Point2="133.5,20"
-                    Point3="137.5,20" />
-                  <mssgle:LineSegment
-                    End="259.5,20" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET1]"
-          TopLeft="262,850.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="79,0"
-              Start="0,0"
-              End="71.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="71.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET]"
-          TopLeft="195,33">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="613,0"
-              Start="0,0"
-              End="605.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="605.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5891,127 +5702,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET12]"
-          TopLeft="234,1013">
+          Id="Package\Traslado de Datos a ODS.Paths[Aggregate Output 11]"
+          TopLeft="763.333333333333,845">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="604,0"
+              EndConnector="160.666666666667,-50"
               Start="0,0"
-              End="596.5,0">
+              End="160.666666666667,-42.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="596.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET11]"
-          TopLeft="228,928.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="612,0"
-              Start="0,0"
-              End="604.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="604.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET10]"
-          TopLeft="275,616.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="538,0"
-              Start="0,0"
-              End="530.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="530.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET9]"
-          TopLeft="221,480.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="598,0"
-              Start="0,0"
-              End="590.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="590.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="127,42"
-          Id="Package\Traslado de Datos a ODS\Aggregate"
-          TopLeft="660,405" />
-        <NodeLayout
-          Size="136,42"
-          Id="Package\Traslado de Datos a ODS\Aggregate 1"
-          TopLeft="674,845" />
-        <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Union All Output 1]"
-          TopLeft="596,377">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="127.5,28"
-              Start="0,0"
-              End="127.5,20.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10" />
+                    End="0,-16.3488372093023" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,10"
-                    Point2="0,14"
-                    Point3="4,14" />
+                    Point1="0,-16.3488372093023"
+                    Point2="0,-20.3488372093023"
+                    Point3="4,-20.3488372093023" />
                   <mssgle:LineSegment
-                    End="123.5,14" />
+                    End="156.666666666667,-20.3488372093023" />
                   <mssgle:CubicBezierSegment
-                    Point1="123.5,14"
-                    Point2="127.5,14"
-                    Point3="127.5,18" />
+                    Point1="156.666666666667,-20.3488372093023"
+                    Point2="160.666666666667,-20.3488372093023"
+                    Point3="160.666666666667,-24.3488372093023" />
                   <mssgle:LineSegment
-                    End="127.5,20.5" />
+                    End="160.666666666667,-42.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6089,31 +5804,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Traslado de Datos a ODS.Paths[Aggregate Output 11]"
-          TopLeft="763.333333333333,845">
+          Id="Package\Traslado de Datos a ODS.Paths[Union All Output 1]"
+          TopLeft="596,377">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="160.666666666667,-50"
+              EndConnector="127.5,28"
               Start="0,0"
-              End="160.666666666667,-42.5">
+              End="127.5,20.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-16.3488372093023" />
+                    End="0,10" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-16.3488372093023"
-                    Point2="0,-20.3488372093023"
-                    Point3="4,-20.3488372093023" />
+                    Point1="0,10"
+                    Point2="0,14"
+                    Point3="4,14" />
                   <mssgle:LineSegment
-                    End="156.666666666667,-20.3488372093023" />
+                    End="123.5,14" />
                   <mssgle:CubicBezierSegment
-                    Point1="156.666666666667,-20.3488372093023"
-                    Point2="160.666666666667,-20.3488372093023"
-                    Point3="160.666666666667,-24.3488372093023" />
+                    Point1="123.5,14"
+                    Point2="127.5,14"
+                    Point3="127.5,18" />
                   <mssgle:LineSegment
-                    End="160.666666666667,-42.5" />
+                    End="127.5,20.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6122,10 +5837,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Traslado de Datos a ODS\Oracle-Semestre_DS"
-          TopLeft="804,523" />
         <EdgeLayout
           Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET13]"
           TopLeft="245,554">
@@ -6160,9 +5871,313 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET12]"
+          TopLeft="230,117.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="573,0"
+              Start="0,0"
+              End="565.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="565.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET11]"
+          TopLeft="195,33">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="613,0"
+              Start="0,0"
+              End="605.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="605.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET10]"
+          TopLeft="262,850.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="79,0"
+              Start="0,0"
+              End="71.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="71.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET9]"
+          TopLeft="276,766">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="267,20"
+              Start="0,0"
+              End="259.5,20">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="129.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="129.5,0"
+                    Point2="133.5,0"
+                    Point3="133.5,4" />
+                  <mssgle:LineSegment
+                    End="133.5,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="133.5,16"
+                    Point2="133.5,20"
+                    Point3="137.5,20" />
+                  <mssgle:LineSegment
+                    End="259.5,20" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET8]"
+          TopLeft="244,698">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="588,0"
+              Start="0,0"
+              End="580.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="580.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET7]"
+          TopLeft="247,398">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="61,0"
+              Start="0,0"
+              End="53.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="53.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET6]"
+          TopLeft="218,325">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="313,25.3333333333333"
+              Start="0,0"
+              End="305.5,25.3333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="176.908256880734,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="176.908256880734,0"
+                    Point2="180.908256880734,0"
+                    Point3="180.908256880734,4" />
+                  <mssgle:LineSegment
+                    End="180.908256880734,21.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="180.908256880734,21.3333333333333"
+                    Point2="180.908256880734,25.3333333333333"
+                    Point3="184.908256880734,25.3333333333333" />
+                  <mssgle:LineSegment
+                    End="305.5,25.3333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET5]"
+          TopLeft="206,183">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="604,0"
+              Start="0,0"
+              End="596.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="596.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET4]"
+          TopLeft="202,262">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="611,0"
+              Start="0,0"
+              End="603.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="603.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET3]"
+          TopLeft="221,480.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="598,0"
+              Start="0,0"
+              End="590.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="590.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET2]"
+          TopLeft="275,616.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="538,0"
+              Start="0,0"
+              End="530.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="530.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Traslado de Datos a ODS.Paths[Salida de origen de ADO NET1]"
+          TopLeft="228,928.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="612,0"
+              Start="0,0"
+              End="604.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="604.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Traslado de Datos a ODS\SQL SERVER-Estudiantes">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Traslado de Datos a ODS\MYSQL-Pagos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Traslado de Datos a ODS\Oracle-Cursos_DS">
     <Properties>
@@ -6220,6 +6235,14 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Traslado de Datos a ODS\SQL SERVER-Notas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Traslado de Datos a ODS\Oracle-Asignaciones_DS">
     <Properties>
       <Property>
@@ -6245,14 +6268,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Traslado de Datos a ODS\Oracle-Anios_DS">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Traslado de Datos a ODS\SQL SERVER-Estudiantes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6292,14 +6307,6 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Traslado de Datos a ODS\SQL SERVER-Horarios">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Traslado de Datos a ODS\Oracle-Dias_DS">
     <Properties>
       <Property>
@@ -6309,6 +6316,22 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Traslado de Datos a ODS\Oracle-Anios">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Traslado de Datos a ODS\Oracle-Semestre_DS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Traslado de Datos a ODS\SQL SERVER-Horarios">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6341,30 +6364,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Traslado de Datos a ODS\Oracle-Semestre">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Traslado de Datos a ODS\SQL SERVER-Notas">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Traslado de Datos a ODS\MYSQL-Pagos">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Traslado de Datos a ODS\Oracle-Semestre_DS">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
