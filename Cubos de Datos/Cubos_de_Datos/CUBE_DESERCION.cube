@@ -1,0 +1,189 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5e5bd5d7-807d-4618-a86d-03fa04bca7f2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBE_DESERCION</ID>
+  <Name>CUBE_DESERCION</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="dc4f6248-bde4-4179-b36e-fb302fc8ccf2">
+      <ID>DIM CURSOS</ID>
+      <Name>DIM CURSOS</Name>
+      <DimensionID>DIM CURSOS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1568582d-9c4f-4771-852d-716e6fad5065">
+          <AttributeID>ID DIM CURSO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d9f0bd2-b1e5-4c63-b83e-3542a5504f6e">
+          <AttributeID>NOMBRE CURSO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="85125bac-5aca-451c-bb93-1da1f76c0673">
+      <ID>DIM SEMESTRES</ID>
+      <Name>DIM SEMESTRES</Name>
+      <DimensionID>DIM SEMESTRES</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="336b1b26-0b13-4420-8937-a190d55c2bf2">
+          <AttributeID>ID DIM SEMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="18faffc5-5743-48df-bbe5-1ce118da7d60">
+          <AttributeID>SEMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e96afa9-e1a0-4a27-85a4-da2fadd56d23">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6adfd6d4-b5af-4785-9ca3-2ce75b65c015">
+      <ID>DIM CATEDRATICOS</ID>
+      <Name>DIM CATEDRATICOS</Name>
+      <DimensionID>DIM CATEDRATICOS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6fae33f4-dc7b-4a94-b759-4dd8591e32e7">
+          <AttributeID>ID DIM CATEDRATICOS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6bedb01a-f8fe-445e-815e-beaead3d1121">
+          <AttributeID>NOMBRE CATEDRATICO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="6c432237-6430-404d-bdce-643cd1cd06e0">
+      <ID>FAC DESERCION</ID>
+      <Name>FAC DESERCION</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="05abe8c4-0e7a-4610-ab71-fb1e099941bf">
+          <ID>CANTIDAD ALUMNOS DESERCION</ID>
+          <Name>CANTIDAD ALUMNOS DESERCION</Name>
+          <Source dwd:design-time-name="c6730b39-53f3-4e05-aae6-34a5c16e4d65">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8a68df8b-2650-4911-bc37-e76c8da95935">
+              <TableID>PROYECTO_DW_FAC_DESERCION</TableID>
+              <ColumnID>CANTIDAD_ALUMNOS_DESERCION</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4b962ea5-0e85-46fc-970b-0c32bc259b5d">
+          <ID>Recuento FAC DESERCION</ID>
+          <Name>Recuento FAC DESERCION</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9cb82d1f-d2ec-497f-8c10-7662a9bf963c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e1eb2e97-f156-4abb-81d5-4b802e0e3ddb">
+              <TableID>PROYECTO_DW_FAC_DESERCION</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="41d747da-0db0-416c-af3f-ecbf0ea7b199">
+          <CubeDimensionID>DIM CURSOS</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="785b3d59-19ce-40ef-8695-9c9a2bf7ce09">
+              <AttributeID>ID DIM CURSO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="86e82c75-f537-44d3-8343-2d26102f55d6">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fe2a5d3a-77b0-4da6-b8ab-aabe83722a0b">
+                    <TableID>PROYECTO_DW_FAC_DESERCION</TableID>
+                    <ColumnID>ID_DIM_CURSO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ec210d4b-7285-4807-bdc6-8f7db2783b72">
+          <CubeDimensionID>DIM CATEDRATICOS</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3d0d235e-f509-465c-9100-701af06f1391">
+              <AttributeID>ID DIM CATEDRATICOS</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="13db8c3f-8e0e-4757-9e9f-c864b1da0c7e">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cbe72b55-cd8f-4dd6-83ce-3c3f54cfd091">
+                    <TableID>PROYECTO_DW_FAC_DESERCION</TableID>
+                    <ColumnID>ID_DIM_CATEDRATICO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b1943efe-e45d-4248-9678-885d9228ac34">
+          <CubeDimensionID>DIM SEMESTRES</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bd8a8413-3cdd-4d4c-92c1-5233d1a8efd7">
+              <AttributeID>ID DIM SEMESTRE</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5c84dcca-76ae-460f-8af8-4217fc04df00">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="309b28b3-6d5c-427c-815b-63fd7ac759c6">
+                    <TableID>PROYECTO_DW_FAC_DESERCION</TableID>
+                    <ColumnID>ID_DIM_SEMESTRE</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="03c194b5-3289-4b18-9587-99aa007c4fab">
+    <DataSourceViewID>PORYECTO_DW</DataSourceViewID>
+  </Source>
+</Cube>

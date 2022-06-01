@@ -1,0 +1,220 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d6ba3c53-521e-4397-b50a-328451515a68" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBE_ESTUDIANTES_MOROSOS</ID>
+  <Name>CUBE_ESTUDIANTES_MOROSOS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="141f4091-a5e0-469b-b97f-27d4dc31d02c">
+      <ID>DIM SEMESTRES</ID>
+      <Name>DIM SEMESTRES</Name>
+      <DimensionID>DIM SEMESTRES</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="01261eac-b3a3-4a64-9f62-0eb47f73da70">
+          <AttributeID>ID DIM SEMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71bd8150-0ac9-4e70-be6c-57c3bd244e9d">
+          <AttributeID>SEMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9594f56-2cc4-4c63-9d7d-4dbd7865e7b7">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="df449e37-79b5-4234-9055-59866ec9b7aa">
+      <ID>DIM CURSOS</ID>
+      <Name>DIM CURSOS</Name>
+      <DimensionID>DIM CURSOS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="65e8b1c5-0598-456b-a2a9-5f3d057dc574">
+          <AttributeID>ID DIM CURSO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a231e3f-f5b0-4d31-b7e0-d9f5e3f1b3c7">
+          <AttributeID>NOMBRE CURSO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9d72adde-c3e7-4a13-8dc4-53c87171ff15">
+      <ID>DIM ESTUDIANTES</ID>
+      <Name>DIM ESTUDIANTES</Name>
+      <DimensionID>DIM ESTUDIANTES</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="33966f9c-0d42-4ac9-8acc-512657f892e6">
+          <AttributeID>ID DIM ESTUDIANTES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="892821ee-9af1-4adc-9a33-00f37160f30a">
+          <AttributeID>NOMBRE ESTUDIANTE</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="766b04e6-8313-42cd-8f4e-3f710bc91f09">
+      <ID>DIM CATEDRATICOS</ID>
+      <Name>DIM CATEDRATICOS</Name>
+      <DimensionID>DIM CATEDRATICOS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a02fa4d5-8388-4178-a737-54bcec8a8e7a">
+          <AttributeID>ID DIM CATEDRATICOS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e9023a1-edcb-4faa-9660-7676543c3375">
+          <AttributeID>NOMBRE CATEDRATICO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="c748e68e-b844-4f31-a49b-ae8c75540206">
+      <ID>FAC ESTUDIANTES MOROSOS</ID>
+      <Name>FAC ESTUDIANTES MOROSOS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="30de8739-fdf6-4580-a51a-8d4c3991be54">
+          <ID>CANTIDAD DIAS MORA</ID>
+          <Name>CANTIDAD DIAS MORA</Name>
+          <Source dwd:design-time-name="48ac406c-407e-45d9-809e-0c2ab3e82999">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b3933a6b-7993-454d-9a1b-cc5f0f15952c">
+              <TableID>PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS</TableID>
+              <ColumnID>CANTIDAD_DIAS_MORA</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1f5eaaf4-251d-4349-89b4-978fe03dc809">
+          <ID>Recuento FAC ESTUDIANTES MOROSOS</ID>
+          <Name>Recuento FAC ESTUDIANTES MOROSOS</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="04bec04c-9dfb-47f2-b94d-feb7be25dc0e">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="69e41916-363c-4d76-b421-68f1362cd650">
+              <TableID>PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cdbef7f8-b6ff-45f8-a951-8a473971cf4d">
+          <CubeDimensionID>DIM ESTUDIANTES</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="87e691ab-7ced-42ec-a1c4-3500f1171a5f">
+              <AttributeID>ID DIM ESTUDIANTES</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cc0b76e3-9a6b-41bf-888d-cafea0113dc4">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9818dd79-fa66-4cbd-9766-3338c7be9aa5">
+                    <TableID>PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS</TableID>
+                    <ColumnID>ID_DIM_ESTUDIANTE</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5111c00a-b9d9-4add-a4d8-98674aa39353">
+          <CubeDimensionID>DIM CATEDRATICOS</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="57510837-3380-4e6f-9e94-9a39db7cb321">
+              <AttributeID>ID DIM CATEDRATICOS</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="be9f1972-aefc-4e37-a0e2-a0b02f0da25c">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e3f73ad1-2e55-42f8-b749-dbd871d62573">
+                    <TableID>PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS</TableID>
+                    <ColumnID>ID_DIM_CATEDRATICO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1c1da978-c316-43ec-b92d-915641641870">
+          <CubeDimensionID>DIM SEMESTRES</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b7764f80-0217-4299-9525-eaa55c4593ae">
+              <AttributeID>ID DIM SEMESTRE</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="21a70a5a-250e-4f1f-ae68-c67306f00b47">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d18265e6-0ebe-48a9-a794-597102f619c3">
+                    <TableID>PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS</TableID>
+                    <ColumnID>ID_DIM_SEMESTRE</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="81cbfca8-dd62-4364-a48b-7e3e35852115">
+          <CubeDimensionID>DIM CURSOS</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="22e0f71b-ccab-4d91-b33c-0d37668637d6">
+              <AttributeID>ID DIM CURSO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="21ac5e03-c321-4c38-9837-3eb8b50cb4af">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a69f9c34-1095-4272-873d-74d0ba4e8756">
+                    <TableID>PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS</TableID>
+                    <ColumnID>ID_DIM_CURSO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6e12cc5b-efc2-4eff-b0bb-478317981575">
+    <DataSourceViewID>PORYECTO_DW</DataSourceViewID>
+  </Source>
+</Cube>

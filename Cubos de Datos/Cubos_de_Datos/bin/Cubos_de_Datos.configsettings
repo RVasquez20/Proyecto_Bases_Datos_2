@@ -1,0 +1,102 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>PROYECTO_DW</ID>
+        <ConnectionString>Provider=OraOLEDB.Oracle.1;Data Source=xe;Password=;User ID=</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>DIM CURSOS</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM ESTUDIANTES</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM SEMESTRES</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM CATEDRATICOS</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM TIEMPO</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>CUBE_PROMEDIOS</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>FAC PROMEDIOS</ID>
+            <Partitions>
+              <Partition>
+                <ID>FAC PROMEDIOS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>PORYECTO_DW</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>FAC COMPORTAMIENTO CATEDRATICO</ID>
+            <Partitions>
+              <Partition>
+                <ID>FAC COMPORTAMIENTO CATEDRATICO</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CUBE_ESTUDIANTES_MOROSOS</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>FAC ESTUDIANTES MOROSOS</ID>
+            <Partitions>
+              <Partition>
+                <ID>FAC ESTUDIANTES MOROSOS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CUBE_COMPORTAMIENTO_PAGOS</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>FAC CANTIDAD PAGOS</ID>
+            <Partitions>
+              <Partition>
+                <ID>FAC CANTIDAD PAGOS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>CUBE_DESERCION</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>FAC DESERCION</ID>
+            <Partitions>
+              <Partition>
+                <ID>FAC DESERCION</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

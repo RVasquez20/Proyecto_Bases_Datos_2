@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Cubos_de_Datos</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>gsodd5EY3JwrxNSLpWH3tvfjI30=31/05/2022 20:31:5931/05/2022 20:31:59</TimeStamp>
+        <ID>
+          <String>PROYECTO_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Qf+/YqgoObh/EWycmkmll3YVqLY=31/05/2022 20:35:0831/05/2022 20:33:46</TimeStamp>
+        <ID>
+          <String>PORYECTO_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hpO6Y28dSBWQXdicJGR1CZTlODY=31/05/2022 20:36:4331/05/2022 20:36:07</TimeStamp>
+        <ID>
+          <String>DIM CURSOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CBhnZxxqovWiFbFEbysTDtdvnYU=31/05/2022 20:37:4031/05/2022 20:36:07</TimeStamp>
+        <ID>
+          <String>DIM ESTUDIANTES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0P/vXn7Oh8/yV+E5WShLKl10as4=31/05/2022 20:36:3731/05/2022 20:36:08</TimeStamp>
+        <ID>
+          <String>DIM SEMESTRES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EwhR+2l78znS6Syv8gYv4CYaN00=31/05/2022 20:37:4931/05/2022 20:36:08</TimeStamp>
+        <ID>
+          <String>DIM CATEDRATICOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GEgddOGIE5B65DbVeZBgnPdBapg=31/05/2022 20:40:2131/05/2022 20:40:12</TimeStamp>
+        <ID>
+          <String>DIM TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>YH4iCwBSu7/ePdBLNQXVcTg+uvA=31/05/2022 20:37:4931/05/2022 20:36:07lmWL4926flK7k2Ye5U7oBYrIf38=31/05/2022 20:36:0831/05/2022 20:36:07</TimeStamp>
+        <ID>
+          <String>CUBE_PROMEDIOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>xvrmYZDAJXZp3z27CaGlPA0Obds=31/05/2022 20:38:4931/05/2022 20:37:17/BTqRFYRS4QWq2yuYqccfbk3syI=31/05/2022 20:37:1731/05/2022 20:37:17</TimeStamp>
+        <ID>
+          <String>PORYECTO_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PsYKL5jbu7KNzmlw0ppcSw19LYM=31/05/2022 20:39:3931/05/2022 20:39:39otT0sOT9EpAw5XyUqoQoitg6BvA=31/05/2022 20:39:3931/05/2022 20:39:39</TimeStamp>
+        <ID>
+          <String>CUBE_ESTUDIANTES_MOROSOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>yX+3bO+ZIql363itg6C8DrGlXnY=31/05/2022 20:40:2131/05/2022 20:40:12vZDxvPN4dgM5KtF1XyLnFfXOdOk=31/05/2022 20:40:1331/05/2022 20:40:12</TimeStamp>
+        <ID>
+          <String>CUBE_COMPORTAMIENTO_PAGOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>zg9krHbqWACRlPM360VUGj9UCjw=31/05/2022 20:40:4131/05/2022 20:40:41aMmScLxk81DLILqa0ZtRhS4J1JA=31/05/2022 20:40:4131/05/2022 20:40:41</TimeStamp>
+        <ID>
+          <String>CUBE_DESERCION</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>yFilFjuIJRIDozxUeRCDB+1xP4Y=31/05/2022 20:30:2331/05/2022 20:30:22</TimeStamp>
+      <ID>
+        <String>Cubos_de_Datos</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-06-01T02:40:51.836667Z</LastDeployed>
+</DeploymentSnapshot>

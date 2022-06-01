@@ -1,0 +1,272 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="169f331e-bc85-4000-b643-7e8f78f752c2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>PORYECTO_DW</ID>
+  <Name>PORYECTO_DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>PROYECTO_DW</DataSourceID>
+  <Schema>
+    <xs:schema id="PORYECTO_DW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="PORYECTO_DW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="d435947b-3c41-4a93-bd0a-2c0307cbfa67">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="PROYECTO_DW_DIM_TIEMPO" msprop:design-time-name="97311a57-1379-4063-acaf-85f94992afa3" msprop:DbTableName="DIM_TIEMPO" msprop:FriendlyName="DIM_TIEMPO" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_TIEMPO" msprop:design-time-name="c247e6ec-7cd3-403d-acbb-f60e728613c3" msprop:DbColumnName="ID_DIM_TIEMPO" msprop:FriendlyName="ID_DIM_TIEMPO" type="xs:long" />
+                  <xs:element name="DIA" msprop:design-time-name="78b56ba7-2a90-48c2-a71d-e41f2b38761a" msprop:DbColumnName="DIA" msprop:FriendlyName="DIA" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_DIM_ESTUDIANTES" msprop:design-time-name="4062fa5f-1706-4734-a447-aedbc640bead" msprop:DbTableName="DIM_ESTUDIANTES" msprop:FriendlyName="DIM_ESTUDIANTES" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_ESTUDIANTES" msprop:design-time-name="221cd9b2-19d9-474a-a952-ed8c3c8ed6a4" msprop:DbColumnName="ID_DIM_ESTUDIANTES" msprop:FriendlyName="ID_DIM_ESTUDIANTES" type="xs:long" />
+                  <xs:element name="NOMBRE_ESTUDIANTE" msprop:design-time-name="c28d1743-b1e3-4644-86b5-41e370e5e78c" msprop:DbColumnName="NOMBRE_ESTUDIANTE" msprop:FriendlyName="NOMBRE_ESTUDIANTE" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_DIM_CURSOS" msprop:design-time-name="b6e73971-aa3a-49db-9ece-0bc023d64e8b" msprop:DbTableName="DIM_CURSOS" msprop:FriendlyName="DIM_CURSOS" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_CURSO" msprop:design-time-name="2d5e4e4a-6a57-4b01-9f1f-c97578ad320c" msprop:DbColumnName="ID_DIM_CURSO" msprop:FriendlyName="ID_DIM_CURSO" type="xs:long" />
+                  <xs:element name="NOMBRE_CURSO" msprop:design-time-name="567439eb-1cd7-4ff0-8333-35ce5cacffd2" msprop:DbColumnName="NOMBRE_CURSO" msprop:FriendlyName="NOMBRE_CURSO" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_DIM_SEMESTRES" msprop:design-time-name="6dbacc07-b1e8-4cd5-98e2-9ae5dcf29c24" msprop:DbTableName="DIM_SEMESTRES" msprop:FriendlyName="DIM_SEMESTRES" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_SEMESTRE" msprop:design-time-name="024773b0-f532-47d1-86f3-b3a34bbc460e" msprop:DbColumnName="ID_DIM_SEMESTRE" msprop:FriendlyName="ID_DIM_SEMESTRE" type="xs:long" />
+                  <xs:element name="SEMESTRE" msprop:design-time-name="b94c77b4-eec7-4f3e-973d-abaaccd91b4c" msprop:DbColumnName="SEMESTRE" msprop:FriendlyName="SEMESTRE" type="xs:long" minOccurs="0" />
+                  <xs:element name="ANIO" msprop:design-time-name="9aa00982-007e-4f95-b6e9-6c27f6dcae01" msprop:DbColumnName="ANIO" msprop:FriendlyName="ANIO" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_DIM_CATEDRATICOS" msprop:design-time-name="9f110333-3987-484e-8a56-08be128e4b75" msprop:DbTableName="DIM_CATEDRATICOS" msprop:FriendlyName="DIM_CATEDRATICOS" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_CATEDRATICOS" msprop:design-time-name="ac740b5f-c6c2-49aa-8956-3ad1bbe6516c" msprop:DbColumnName="ID_DIM_CATEDRATICOS" msprop:FriendlyName="ID_DIM_CATEDRATICOS" type="xs:long" />
+                  <xs:element name="NOMBRE_CATEDRATICO" msprop:design-time-name="6826e4e6-c5e9-4a7e-8988-e6f5fd8988b5" msprop:DbColumnName="NOMBRE_CATEDRATICO" msprop:FriendlyName="NOMBRE_CATEDRATICO" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_FAC_DESERCION" msprop:design-time-name="2ffc0d8b-820b-4885-9a82-0dcef20cd333" msprop:DbTableName="FAC_DESERCION" msprop:FriendlyName="FAC_DESERCION" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_SEMESTRE" msprop:design-time-name="dbacbd4b-38fa-435a-a022-6943c20f786c" msprop:DbColumnName="ID_DIM_SEMESTRE" msprop:FriendlyName="ID_DIM_SEMESTRE" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_CATEDRATICO" msprop:design-time-name="4d581974-f332-44c4-b040-eeaa040da873" msprop:DbColumnName="ID_DIM_CATEDRATICO" msprop:FriendlyName="ID_DIM_CATEDRATICO" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_CURSO" msprop:design-time-name="13030ce1-3c87-4fd3-8e7c-a40c7ca112c8" msprop:DbColumnName="ID_DIM_CURSO" msprop:FriendlyName="ID_DIM_CURSO" type="xs:long" minOccurs="0" />
+                  <xs:element name="CANTIDAD_ALUMNOS_DESERCION" msprop:design-time-name="d18d07e6-5561-41e5-9c19-61a189811c45" msprop:DbColumnName="CANTIDAD_ALUMNOS_DESERCION" msprop:FriendlyName="CANTIDAD_ALUMNOS_DESERCION" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_FAC_CANTIDAD_PAGOS" msprop:design-time-name="2abbcb62-9bd6-4055-a7dc-6cf1a226f531" msprop:DbTableName="FAC_CANTIDAD_PAGOS" msprop:FriendlyName="FAC_CANTIDAD_PAGOS" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_ESTUDIANTE" msprop:design-time-name="c36af4cc-3d69-44e3-bc57-0027f0d807f2" msprop:DbColumnName="ID_DIM_ESTUDIANTE" msprop:FriendlyName="ID_DIM_ESTUDIANTE" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_TIEMPO" msprop:design-time-name="2613e3dc-344a-42ce-87a2-6e853087c66e" msprop:DbColumnName="ID_DIM_TIEMPO" msprop:FriendlyName="ID_DIM_TIEMPO" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_CATEDRATICO" msprop:design-time-name="98582df6-7539-4c4c-9c17-4de9f4e69781" msprop:DbColumnName="ID_DIM_CATEDRATICO" msprop:FriendlyName="ID_DIM_CATEDRATICO" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_CURSO" msprop:design-time-name="f36e835e-e2ed-43ea-b438-1e9e1c321014" msprop:DbColumnName="ID_DIM_CURSO" msprop:FriendlyName="ID_DIM_CURSO" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_SEMESTRE" msprop:design-time-name="3b5da747-2167-4757-9826-ac943a0bc6fd" msprop:DbColumnName="ID_DIM_SEMESTRE" msprop:FriendlyName="ID_DIM_SEMESTRE" type="xs:long" minOccurs="0" />
+                  <xs:element name="CANTIDAD_PAGOS" msprop:design-time-name="96d7168c-9180-49e5-93b0-c914ee8fa56d" msprop:DbColumnName="CANTIDAD_PAGOS" msprop:FriendlyName="CANTIDAD_PAGOS" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_FAC_PROMEDIOS" msprop:design-time-name="bc781d7a-83b8-4715-a7ac-0408ed80e6c9" msprop:DbTableName="FAC_PROMEDIOS" msprop:FriendlyName="FAC_PROMEDIOS" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_CURSO" msprop:design-time-name="b4771ed5-042b-4016-bc09-012ce8b6a388" msprop:DbColumnName="ID_DIM_CURSO" msprop:FriendlyName="ID_DIM_CURSO" type="xs:long" />
+                  <xs:element name="ID_DIM_SEMESTRE" msprop:design-time-name="201453af-9fcb-4433-b003-59e9a4963a95" msprop:DbColumnName="ID_DIM_SEMESTRE" msprop:FriendlyName="ID_DIM_SEMESTRE" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_CATEDRATICO" msprop:design-time-name="03968e8c-2ece-4c3a-b0af-4b01751f50a6" msprop:DbColumnName="ID_DIM_CATEDRATICO" msprop:FriendlyName="ID_DIM_CATEDRATICO" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_ESTUDIANTE" msprop:design-time-name="33636464-92b1-49a1-8d64-6faf0c073c00" msprop:DbColumnName="ID_DIM_ESTUDIANTE" msprop:FriendlyName="ID_DIM_ESTUDIANTE" type="xs:long" minOccurs="0" />
+                  <xs:element name="PARCIAL1" msprop:design-time-name="7b035559-5cd9-4b11-9d6e-b15f83a41dae" msprop:DbColumnName="PARCIAL1" msprop:FriendlyName="PARCIAL1" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="PARCIAL2" msprop:design-time-name="535a9d9f-b277-4c62-b353-bf4a0ec0e8db" msprop:DbColumnName="PARCIAL2" msprop:FriendlyName="PARCIAL2" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="PROYECTO_FINAL" msprop:design-time-name="6af6cb21-33bd-45c9-95fa-84ae37badb3c" msprop:DbColumnName="PROYECTO_FINAL" msprop:FriendlyName="PROYECTO_FINAL" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ACTIVADES" msprop:design-time-name="272cba1f-1621-49d0-94e4-cc6b11340ea9" msprop:DbColumnName="ACTIVADES" msprop:FriendlyName="ACTIVADES" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="EXAMEN_FINAL" msprop:design-time-name="cbef24fc-aa25-48fa-85c6-4067cf49aeed" msprop:DbColumnName="EXAMEN_FINAL" msprop:FriendlyName="EXAMEN_FINAL" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS" msprop:design-time-name="ea41028c-f0b3-4fea-85ba-68191a921243" msprop:DbTableName="FAC_ESTUDIANTES_MOROSOS" msprop:FriendlyName="FAC_ESTUDIANTES_MOROSOS" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_CURSO" msprop:design-time-name="0f7a6720-5bfa-4830-8f0c-2af5ab3576ee" msprop:DbColumnName="ID_DIM_CURSO" msprop:FriendlyName="ID_DIM_CURSO" type="xs:long" />
+                  <xs:element name="ID_DIM_SEMESTRE" msprop:design-time-name="e0329486-8a65-4d48-92bd-346b8d4ba784" msprop:DbColumnName="ID_DIM_SEMESTRE" msprop:FriendlyName="ID_DIM_SEMESTRE" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_CATEDRATICO" msprop:design-time-name="5c1a9ab9-2f3c-45db-8cee-cfcd2e18d7ca" msprop:DbColumnName="ID_DIM_CATEDRATICO" msprop:FriendlyName="ID_DIM_CATEDRATICO" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_ESTUDIANTE" msprop:design-time-name="e5b52c47-a238-49ba-b981-7dda7d3ba60c" msprop:DbColumnName="ID_DIM_ESTUDIANTE" msprop:FriendlyName="ID_DIM_ESTUDIANTE" type="xs:long" minOccurs="0" />
+                  <xs:element name="CANTIDAD_DIAS_MORA" msprop:design-time-name="439a58b8-be5c-49fb-b969-799478da877c" msprop:DbColumnName="CANTIDAD_DIAS_MORA" msprop:FriendlyName="CANTIDAD_DIAS_MORA" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PROYECTO_DW_FAC_COMPORTAMIENTO_CATEDRATICO" msprop:design-time-name="997b5cc7-f5cc-4ee1-952a-5ca0d6e73075" msprop:DbTableName="FAC_COMPORTAMIENTO_CATEDRATICO" msprop:FriendlyName="FAC_COMPORTAMIENTO_CATEDRATICO" msprop:DbSchemaName="PROYECTO_DW" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DIM_ESTUDIANTE" msprop:design-time-name="80517e20-6657-465e-b14b-533a8826abdf" msprop:DbColumnName="ID_DIM_ESTUDIANTE" msprop:FriendlyName="ID_DIM_ESTUDIANTE" type="xs:long" />
+                  <xs:element name="ID_DIM_CURSO" msprop:design-time-name="7609de06-7a45-4ef9-bc0c-ffbda4c29292" msprop:DbColumnName="ID_DIM_CURSO" msprop:FriendlyName="ID_DIM_CURSO" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_SEMESTRE" msprop:design-time-name="1e8833cc-98f7-4491-9f22-4241ecadfad1" msprop:DbColumnName="ID_DIM_SEMESTRE" msprop:FriendlyName="ID_DIM_SEMESTRE" type="xs:long" minOccurs="0" />
+                  <xs:element name="ID_DIM_CATEDRATICO" msprop:design-time-name="0ac735d2-f247-4c0b-ac4b-308ab374af9a" msprop:DbColumnName="ID_DIM_CATEDRATICO" msprop:FriendlyName="ID_DIM_CATEDRATICO" type="xs:long" minOccurs="0" />
+                  <xs:element name="CANTIDAD_APROBADOS" msprop:design-time-name="2f75de64-c9e7-4a05-805b-2849a4af3909" msprop:DbColumnName="CANTIDAD_APROBADOS" msprop:FriendlyName="CANTIDAD_APROBADOS" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//PROYECTO_DW_DIM_TIEMPO" />
+          <xs:field xpath="ID_DIM_TIEMPO" />
+        </xs:unique>
+        <xs:unique name="PROYECTO_DW_DIM_ESTUDIANTES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//PROYECTO_DW_DIM_ESTUDIANTES" />
+          <xs:field xpath="ID_DIM_ESTUDIANTES" />
+        </xs:unique>
+        <xs:unique name="PROYECTO_DW_DIM_CURSOS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//PROYECTO_DW_DIM_CURSOS" />
+          <xs:field xpath="ID_DIM_CURSO" />
+        </xs:unique>
+        <xs:unique name="PROYECTO_DW_DIM_SEMESTRES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//PROYECTO_DW_DIM_SEMESTRES" />
+          <xs:field xpath="ID_DIM_SEMESTRE" />
+        </xs:unique>
+        <xs:unique name="PROYECTO_DW_DIM_CATEDRATICOS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//PROYECTO_DW_DIM_CATEDRATICOS" />
+          <xs:field xpath="ID_DIM_CATEDRATICOS" />
+        </xs:unique>
+        <xs:keyref name="FAC_COMPORTAMIENTO_CATEDR_FK2" refer="PROYECTO_DW_DIM_CURSOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_COMPORTAMIENTO_CATEDRATICO" />
+          <xs:field xpath="ID_DIM_CURSO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_COMPORTAMIENTO_CATEDR_FK1" refer="PROYECTO_DW_DIM_CATEDRATICOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_COMPORTAMIENTO_CATEDRATICO" />
+          <xs:field xpath="ID_DIM_CATEDRATICO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_COMPORTAMIENTO_CATEDR_FK4" refer="PROYECTO_DW_DIM_ESTUDIANTES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_COMPORTAMIENTO_CATEDRATICO" />
+          <xs:field xpath="ID_DIM_ESTUDIANTE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_COMPORTAMIENTO_CATEDR_FK3" refer="PROYECTO_DW_DIM_SEMESTRES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_COMPORTAMIENTO_CATEDRATICO" />
+          <xs:field xpath="ID_DIM_SEMESTRE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_ESTUDIANTES_MOROSOS_FK1" refer="PROYECTO_DW_DIM_CURSOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS" />
+          <xs:field xpath="ID_DIM_CURSO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_ESTUDIANTES_MOROSOS_FK2" refer="PROYECTO_DW_DIM_SEMESTRES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS" />
+          <xs:field xpath="ID_DIM_SEMESTRE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_ESTUDIANTES_MOROSOS_FK3" refer="PROYECTO_DW_DIM_CATEDRATICOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS" />
+          <xs:field xpath="ID_DIM_CATEDRATICO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_ESTUDIANTES_MOROSOS_FK4" refer="PROYECTO_DW_DIM_ESTUDIANTES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_ESTUDIANTES_MOROSOS" />
+          <xs:field xpath="ID_DIM_ESTUDIANTE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_PROMEDIOS_FK3" refer="PROYECTO_DW_DIM_CATEDRATICOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_PROMEDIOS" />
+          <xs:field xpath="ID_DIM_CATEDRATICO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_PROMEDIOS_FK2" refer="PROYECTO_DW_DIM_SEMESTRES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_PROMEDIOS" />
+          <xs:field xpath="ID_DIM_SEMESTRE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_PROMEDIOS_FK4" refer="PROYECTO_DW_DIM_ESTUDIANTES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_PROMEDIOS" />
+          <xs:field xpath="ID_DIM_ESTUDIANTE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_PROMEDIOS_FK1" refer="PROYECTO_DW_DIM_CURSOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_PROMEDIOS" />
+          <xs:field xpath="ID_DIM_CURSO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_CANTIDAD_PAGOS_FK2" refer="Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_CANTIDAD_PAGOS" />
+          <xs:field xpath="ID_DIM_TIEMPO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_CANTIDAD_PAGOS_FK3" refer="PROYECTO_DW_DIM_CATEDRATICOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_CANTIDAD_PAGOS" />
+          <xs:field xpath="ID_DIM_CATEDRATICO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_CANTIDAD_PAGOS_FK5" refer="PROYECTO_DW_DIM_SEMESTRES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_CANTIDAD_PAGOS" />
+          <xs:field xpath="ID_DIM_SEMESTRE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_CANTIDAD_PAGOS_FK1" refer="PROYECTO_DW_DIM_ESTUDIANTES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_CANTIDAD_PAGOS" />
+          <xs:field xpath="ID_DIM_ESTUDIANTE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_CANTIDAD_PAGOS_FK4" refer="PROYECTO_DW_DIM_CURSOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_CANTIDAD_PAGOS" />
+          <xs:field xpath="ID_DIM_CURSO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_DESERCION_FK1" refer="PROYECTO_DW_DIM_SEMESTRES_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_DESERCION" />
+          <xs:field xpath="ID_DIM_SEMESTRE" />
+        </xs:keyref>
+        <xs:keyref name="FAC_DESERCION_FK2" refer="PROYECTO_DW_DIM_CATEDRATICOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_DESERCION" />
+          <xs:field xpath="ID_DIM_CATEDRATICO" />
+        </xs:keyref>
+        <xs:keyref name="FAC_DESERCION_FK3" refer="PROYECTO_DW_DIM_CURSOS_Constraint1">
+          <xs:selector xpath=".//PROYECTO_DW_FAC_DESERCION" />
+          <xs:field xpath="ID_DIM_CURSO" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <PORYECTO_DW xmlns="" />
+  </Schema>
+</DataSourceView>
